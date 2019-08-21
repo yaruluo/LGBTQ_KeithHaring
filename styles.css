@@ -1,0 +1,66 @@
+.header{
+  background-color: red;
+  text-align: center;
+  grid-column-start:1;
+  grid-column-end:4;
+  font-family: 'Monoton', cursive;
+}
+.KH{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8a/LGBT_Rainbow_Flag.png);
+  text-align: center;
+  background-size: 100%;
+  grid-column-start:1;
+  grid-column-end:4;
+}
+.kerchief{
+  background-color: yellow;
+  grid-column-start:1;
+  grid-column-end:4;
+  padding: 2%;
+}
+.kerchief img{
+  float: right;
+  padding: 2%;
+}
+.kerchief p{
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+}
+.art{
+  background-color: green;
+  grid-column-start:1;
+  grid-column-end:2;
+  padding: 2%;
+}
+.art p{
+  text-align: left;
+}
+.nightclub{
+  background-color: blue;
+  grid-column-start:2;
+  grid-column-end:4;
+  padding: 2%;
+}
+.nightclub p{
+  text-align: left;
+}
+.footer{
+  background-color: purple;
+  grid-column-start:1;
+  grid-column-end:4;
+}
+div{
+  background-color: white;
+  margin: 30px;
+}
+body{
+  background-image: url("https://i.pinimg.com/originals/69/8a/44/698a44c0c1777b3e8af701f5214ecc73.jpg");
+  padding: 5px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:50% 25% 25%;
+  grid-gap:5px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  padding: 2%;
+}
